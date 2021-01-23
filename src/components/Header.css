@@ -1,0 +1,117 @@
+.header {
+  background-color: rgb(14, 14, 14);
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+
+.header__left {
+  padding-left: 20px;
+  width: 300px;
+}
+
+.header__left > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__left > a > p {
+  color: white;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+.header__left > a > .MuiSvgIcon-root {
+  font-size: 40px;
+  margin-right: 2px;
+  color: white;
+  transition: 400ms;
+}
+
+.header__left:hover > a > .MuiSvgIcon-root {
+  color: rgb(151, 148, 148);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.header__center > a > img {
+  width: 35px;
+  height: 28px;
+}
+
+.header__center > a > .MuiSvgIcon-root {
+  font-size: 25px;
+  color: white;
+  transition: 400ms;
+}
+
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding-right: 20px;
+  width: 300px;
+}
+
+.header__right > .MuiAvatar-root {
+  transition: 400ms;
+}
+
+.header__right > .MuiAvatar-root:hover {
+  color: rgb(151, 148, 148);
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+
+.icon {
+  transition: 400ms;
+}
+
+a > .icon:hover {
+  color: rgb(151, 148, 148);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+@media screen and (max-width: 800px) {
+  .header__right {
+    display: none;
+  }
+
+  .header {
+    background-color: rgb(14, 14, 14);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .header__center {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+  }
+
+  .header__left {
+    padding-left: 0;
+    width: 300px;
+  }
+}

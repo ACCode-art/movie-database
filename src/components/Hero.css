@@ -1,0 +1,103 @@
+.hero {
+  position: relative;
+  height: 1080px;
+  padding-bottom: 20px;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  transition: 400ms;
+}
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.5s;
+  margin-top: 700px;
+  overflow: hidden;
+  padding-left: 30px;
+}
+
+.hero__overlay > img {
+  width: 320px;
+  height: 180px;
+}
+
+.hero__overlay > .MuiSvgIcon-root {
+  font-size: 70px !important;
+}
+.hero__overlayTitle {
+  font-size: 50px !important;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.hero__overlay > p {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    display: none;
+  }
+
+  .hero__overlay {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hero {
+    position: relative;
+    height: 580px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.5s;
+    margin-top: 200px;
+    overflow: hidden;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .hero {
+    position: relative;
+    height: 680px;
+    padding-bottom: 20px;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.5s;
+    margin-top: 200px;
+    overflow: hidden;
+    padding-left: 30px;
+  }
+}

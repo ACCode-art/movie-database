@@ -1,0 +1,27 @@
+.trending {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.trending__movies {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 12px;
+}
+
+.trending > h1 {
+  padding-left: 13px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width: 800px) {
+  .trending > h1 {
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-top: 90px;
+    color: rgb(245, 245, 245);
+  }
+}

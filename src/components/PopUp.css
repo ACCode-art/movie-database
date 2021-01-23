@@ -1,0 +1,35 @@
+.popUp {
+  position: fixed;
+  margin-left: 600px;
+  margin-bottom: 200px;
+  height: 500px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
+  bottom: 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popUp__button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popUp > .popUp__button > button {
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.popUp > h1 {
+  margin-bottom: 20px;
+}
+
+.popUp > p {
+  text-align: left;
+  font-style: italic;
+  padding: 0 30px 30px 30px;
+}

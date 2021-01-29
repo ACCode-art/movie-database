@@ -17,5 +17,5 @@ A full working version of this project can be found at https://movie-app-243e1.w
 <li> TMDB API
 <li> Aos for transitional effects  
 <li> React Router
-<li> tippy
+<li> Tippy
 

@@ -97,14 +97,13 @@
 }
 
 .movie__more {
-  margin-top: 15px;
+  margin-top: 10px;
   opacity: 0.8;
   transition: 1000ms;
 }
 .movie__more:hover {
   color: orange;
   opacity: 1;
-  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1800px) {
@@ -141,6 +140,13 @@
     margin-right: 10px;
     width: 31%;
   }
+
+  .movie__overlayTitle {
+    font-size: 20px;
+  }
+  .movie__overlayDesc {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -149,5 +155,11 @@
     margin-bottom: 20px;
     margin-right: 10px;
     width: 47.5%;
+  }
+  .movie__overlayTitle {
+    font-size: 20px;
+  }
+  .movie__overlayDesc {
+    font-size: 0.8rem;
   }
 }
